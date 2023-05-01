@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C560D4A929F4E83100BBF349 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4A829F4E83100BBF349 /* AudioPlayer.swift */; };
+		C560D4AB29F4EC7D00BBF349 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4AA29F4EC7D00BBF349 /* NowPlayingView.swift */; };
+		C560D4AD29F5038900BBF349 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4AC29F5038900BBF349 /* Path.swift */; };
+		C560D4AF29F503A200BBF349 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4AE29F503A200BBF349 /* Authentication.swift */; };
+		C560D4B129F503B500BBF349 /* ClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4B029F503B500BBF349 /* ClientError.swift */; };
+		C560D4B329F504A700BBF349 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4B229F504A700BBF349 /* CoverImage.swift */; };
+		C560D4B529F5055F00BBF349 /* SongListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4B429F5055F00BBF349 /* SongListItemView.swift */; };
+		C560D4B729F54F1000BBF349 /* PlaybackDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4B629F54F1000BBF349 /* PlaybackDurationView.swift */; };
+		C560D4B929F55C6F00BBF349 /* SearchResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560D4B829F55C6F00BBF349 /* SearchResultListView.swift */; };
+		C59197D729F3981400658C8E /* NaviplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197D629F3981400658C8E /* NaviplayApp.swift */; };
+		C59197D929F3981400658C8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197D829F3981400658C8E /* ContentView.swift */; };
+		C59197DB29F3981500658C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59197DA29F3981500658C8E /* Assets.xcassets */; };
+		C59197DF29F3981500658C8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59197DE29F3981500658C8E /* Preview Assets.xcassets */; };
+		C59197E729F3A26500658C8E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197E629F3A26500658C8E /* Models.swift */; };
+		C59197EA29F3A4BC00658C8E /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197E929F3A4BC00658C8E /* Sidebar.swift */; };
+		C59197ED29F3A59800658C8E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197EC29F3A59800658C8E /* State.swift */; };
+		C59197F029F3E1B100658C8E /* NavidromeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197EF29F3E1B100658C8E /* NavidromeClient.swift */; };
+		C59197F229F3EE8E00658C8E /* ArtistsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197F129F3EE8E00658C8E /* ArtistsListView.swift */; };
+		C59197F429F42A1A00658C8E /* AlbumArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197F329F42A1A00658C8E /* AlbumArtistListView.swift */; };
+		C59197F629F430A800658C8E /* AlbumSongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59197F529F430A800658C8E /* AlbumSongListView.swift */; };
+		C5A8422129FE964F007F847E /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = C5A8422029FE964F007F847E /* KeychainAccess */; };
+		C5A8422329FE9665007F847E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8422229FE9665007F847E /* SettingsView.swift */; };
+		C5A8422529FEAC5C007F847E /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8422429FEAC5C007F847E /* AuthenticationState.swift */; };
+		C5A8422729FF7755007F847E /* PlaybackControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8422629FF7755007F847E /* PlaybackControlsView.swift */; };
+		C5E180CD29F7AC0A0014DC88 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E180CC29F7AC0A0014DC88 /* AlbumListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C560D4A829F4E83100BBF349 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C560D4AA29F4EC7D00BBF349 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		C560D4AC29F5038900BBF349 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		C560D4AE29F503A200BBF349 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		C560D4B029F503B500BBF349 /* ClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientError.swift; sourceTree = "<group>"; };
+		C560D4B229F504A700BBF349 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		C560D4B429F5055F00BBF349 /* SongListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListItemView.swift; sourceTree = "<group>"; };
+		C560D4B629F54F1000BBF349 /* PlaybackDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackDurationView.swift; sourceTree = "<group>"; };
+		C560D4B829F55C6F00BBF349 /* SearchResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultListView.swift; sourceTree = "<group>"; };
+		C59197D329F3981400658C8E /* Naviplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naviplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59197D629F3981400658C8E /* NaviplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviplayApp.swift; sourceTree = "<group>"; };
+		C59197D829F3981400658C8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C59197DA29F3981500658C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C59197DC29F3981500658C8E /* Naviplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Naviplay.entitlements; sourceTree = "<group>"; };
+		C59197DE29F3981500658C8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C59197E629F3A26500658C8E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C59197E929F3A4BC00658C8E /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		C59197EC29F3A59800658C8E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		C59197EF29F3E1B100658C8E /* NavidromeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavidromeClient.swift; sourceTree = "<group>"; };
+		C59197F129F3EE8E00658C8E /* ArtistsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsListView.swift; sourceTree = "<group>"; };
+		C59197F329F42A1A00658C8E /* AlbumArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumArtistListView.swift; sourceTree = "<group>"; };
+		C59197F529F430A800658C8E /* AlbumSongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSongListView.swift; sourceTree = "<group>"; };
+		C5A8422229FE9665007F847E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C5A8422429FEAC5C007F847E /* AuthenticationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
+		C5A8422629FF7755007F847E /* PlaybackControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlsView.swift; sourceTree = "<group>"; };
+		C5A8422829FF7C90007F847E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C5E180CC29F7AC0A0014DC88 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59197D029F3981400658C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8422129FE964F007F847E /* KeychainAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C560D4A729F4E81700BBF349 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C560D4A829F4E83100BBF349 /* AudioPlayer.swift */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		C59197CA29F3981400658C8E = {
+			isa = PBXGroup;
+			children = (
+				C59197D529F3981400658C8E /* Naviplay */,
+				C59197D429F3981400658C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59197D429F3981400658C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59197D329F3981400658C8E /* Naviplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59197D529F3981400658C8E /* Naviplay */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8422829FF7C90007F847E /* Info.plist */,
+				C560D4A729F4E81700BBF349 /* AudioPlayer */,
+				C59197EE29F3E19B00658C8E /* Client */,
+				C59197E829F3A4A900658C8E /* Views */,
+				C59197E529F3A25200658C8E /* Models */,
+				C59197D629F3981400658C8E /* NaviplayApp.swift */,
+				C59197EB29F3A57900658C8E /* State */,
+				C59197D829F3981400658C8E /* ContentView.swift */,
+				C59197DA29F3981500658C8E /* Assets.xcassets */,
+				C59197DC29F3981500658C8E /* Naviplay.entitlements */,
+				C59197DD29F3981500658C8E /* Preview Content */,
+			);
+			path = Naviplay;
+			sourceTree = "<group>";
+		};
+		C59197DD29F3981500658C8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C59197DE29F3981500658C8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C59197E529F3A25200658C8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C59197E629F3A26500658C8E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C59197E829F3A4A900658C8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C59197E929F3A4BC00658C8E /* Sidebar.swift */,
+				C59197F129F3EE8E00658C8E /* ArtistsListView.swift */,
+				C59197F529F430A800658C8E /* AlbumSongListView.swift */,
+				C560D4AA29F4EC7D00BBF349 /* NowPlayingView.swift */,
+				C560D4B229F504A700BBF349 /* CoverImage.swift */,
+				C560D4B429F5055F00BBF349 /* SongListItemView.swift */,
+				C560D4B629F54F1000BBF349 /* PlaybackDurationView.swift */,
+				C560D4B829F55C6F00BBF349 /* SearchResultListView.swift */,
+				C59197F329F42A1A00658C8E /* AlbumArtistListView.swift */,
+				C5E180CC29F7AC0A0014DC88 /* AlbumListView.swift */,
+				C5A8422229FE9665007F847E /* SettingsView.swift */,
+				C5A8422629FF7755007F847E /* PlaybackControlsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C59197EB29F3A57900658C8E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				C59197EC29F3A59800658C8E /* State.swift */,
+				C5A8422429FEAC5C007F847E /* AuthenticationState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		C59197EE29F3E19B00658C8E /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				C59197EF29F3E1B100658C8E /* NavidromeClient.swift */,
+				C560D4AC29F5038900BBF349 /* Path.swift */,
+				C560D4AE29F503A200BBF349 /* Authentication.swift */,
+				C560D4B029F503B500BBF349 /* ClientError.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59197D229F3981400658C8E /* Naviplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59197E229F3981500658C8E /* Build configuration list for PBXNativeTarget "Naviplay" */;
+			buildPhases = (
+				C59197CF29F3981400658C8E /* Sources */,
+				C59197D029F3981400658C8E /* Frameworks */,
+				C59197D129F3981400658C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Naviplay;
+			packageProductDependencies = (
+				C5A8422029FE964F007F847E /* KeychainAccess */,
+			);
+			productName = Naviplay;
+			productReference = C59197D329F3981400658C8E /* Naviplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59197CB29F3981400658C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C59197D229F3981400658C8E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C59197CE29F3981400658C8E /* Build configuration list for PBXProject "Naviplay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59197CA29F3981400658C8E;
+			packageReferences = (
+				C5A8421F29FE964F007F847E /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
+			productRefGroup = C59197D429F3981400658C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59197D229F3981400658C8E /* Naviplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59197D129F3981400658C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59197DF29F3981500658C8E /* Preview Assets.xcassets in Resources */,
+				C59197DB29F3981500658C8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59197CF29F3981400658C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59197F029F3E1B100658C8E /* NavidromeClient.swift in Sources */,
+				C59197E729F3A26500658C8E /* Models.swift in Sources */,
+				C59197D929F3981400658C8E /* ContentView.swift in Sources */,
+				C59197F429F42A1A00658C8E /* AlbumArtistListView.swift in Sources */,
+				C560D4B729F54F1000BBF349 /* PlaybackDurationView.swift in Sources */,
+				C5A8422329FE9665007F847E /* SettingsView.swift in Sources */,
+				C560D4AF29F503A200BBF349 /* Authentication.swift in Sources */,
+				C560D4AB29F4EC7D00BBF349 /* NowPlayingView.swift in Sources */,
+				C59197EA29F3A4BC00658C8E /* Sidebar.swift in Sources */,
+				C59197ED29F3A59800658C8E /* State.swift in Sources */,
+				C59197F229F3EE8E00658C8E /* ArtistsListView.swift in Sources */,
+				C5A8422729FF7755007F847E /* PlaybackControlsView.swift in Sources */,
+				C560D4A929F4E83100BBF349 /* AudioPlayer.swift in Sources */,
+				C59197F629F430A800658C8E /* AlbumSongListView.swift in Sources */,
+				C560D4B329F504A700BBF349 /* CoverImage.swift in Sources */,
+				C560D4AD29F5038900BBF349 /* Path.swift in Sources */,
+				C59197D729F3981400658C8E /* NaviplayApp.swift in Sources */,
+				C5A8422529FEAC5C007F847E /* AuthenticationState.swift in Sources */,
+				C560D4B929F55C6F00BBF349 /* SearchResultListView.swift in Sources */,
+				C5E180CD29F7AC0A0014DC88 /* AlbumListView.swift in Sources */,
+				C560D4B529F5055F00BBF349 /* SongListItemView.swift in Sources */,
+				C560D4B129F503B500BBF349 /* ClientError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C59197E029F3981500658C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C59197E129F3981500658C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C59197E329F3981500658C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Naviplay/Naviplay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Naviplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 9E8SXF3Y36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Naviplay/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.hartl.Naviplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59197E429F3981500658C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Naviplay/Naviplay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Naviplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 9E8SXF3Y36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Naviplay/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.hartl.Naviplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59197CE29F3981400658C8E /* Build configuration list for PBXProject "Naviplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59197E029F3981500658C8E /* Debug */,
+				C59197E129F3981500658C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59197E229F3981500658C8E /* Build configuration list for PBXNativeTarget "Naviplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59197E329F3981500658C8E /* Debug */,
+				C59197E429F3981500658C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5A8421F29FE964F007F847E /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5A8422029FE964F007F847E /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5A8421F29FE964F007F847E /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C59197CB29F3981400658C8E /* Project object */;
+}
